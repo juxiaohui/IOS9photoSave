@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,41 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="生活百科.png" translatesAutoresizingMaskIntoConstraints="NO" id="BeN-4S-GSf">
+                                <rect key="frame" x="-75" y="170" width="750" height="260"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="吃喝玩乐.png" translatesAutoresizingMaskIntoConstraints="NO" id="03d-EG-yHd">
+                                <rect key="frame" x="-75" y="-100" width="750" height="260"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="元宵元旦.png" translatesAutoresizingMaskIntoConstraints="NO" id="x8n-9g-btz">
+                                <rect key="frame" x="-75" y="440" width="750" height="260"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BeN-4S-GSf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B3R-Ts-dM8"/>
+                            <constraint firstItem="BeN-4S-GSf" firstAttribute="top" secondItem="03d-EG-yHd" secondAttribute="bottom" constant="10" id="CmR-UE-nxh"/>
+                            <constraint firstItem="x8n-9g-btz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EFP-Rg-eUs"/>
+                            <constraint firstItem="x8n-9g-btz" firstAttribute="top" secondItem="BeN-4S-GSf" secondAttribute="bottom" constant="10" id="Hf2-SX-7gY"/>
+                            <constraint firstItem="03d-EG-yHd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V59-SC-6UQ"/>
+                            <constraint firstItem="BeN-4S-GSf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uwa-gU-wYg"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView1" destination="03d-EG-yHd" id="h07-EK-aFP"/>
+                        <outlet property="imageView2" destination="BeN-4S-GSf" id="rBZ-6H-3Ui"/>
+                        <outlet property="imageView3" destination="x8n-9g-btz" id="49U-jx-k4I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="324" y="258"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="元宵元旦.png" width="750" height="260"/>
+        <image name="吃喝玩乐.png" width="750" height="260"/>
+        <image name="生活百科.png" width="750" height="260"/>
+    </resources>
 </document>

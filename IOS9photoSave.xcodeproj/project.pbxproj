@@ -15,6 +15,9 @@
 		B32C4BF61D37788400952B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32C4BF41D37788400952B6D /* LaunchScreen.storyboard */; };
 		B32C4C011D37788400952B6D /* IOS9photoSaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C4C001D37788400952B6D /* IOS9photoSaveTests.m */; };
 		B32C4C0C1D37788400952B6D /* IOS9photoSaveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C4C0B1D37788400952B6D /* IOS9photoSaveUITests.m */; };
+		B32C4C1C1D377A6500952B6D /* 吃喝玩乐.png in Resources */ = {isa = PBXBuildFile; fileRef = B32C4C191D377A6500952B6D /* 吃喝玩乐.png */; };
+		B32C4C1D1D377A6500952B6D /* 生活百科.png in Resources */ = {isa = PBXBuildFile; fileRef = B32C4C1A1D377A6500952B6D /* 生活百科.png */; };
+		B32C4C1E1D377A6500952B6D /* 元宵元旦.png in Resources */ = {isa = PBXBuildFile; fileRef = B32C4C1B1D377A6500952B6D /* 元宵元旦.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		B32C4C071D37788400952B6D /* IOS9photoSaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS9photoSaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32C4C0B1D37788400952B6D /* IOS9photoSaveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS9photoSaveUITests.m; sourceTree = "<group>"; };
 		B32C4C0D1D37788400952B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B32C4C191D377A6500952B6D /* 吃喝玩乐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吃喝玩乐.png"; sourceTree = "<group>"; };
+		B32C4C1A1D377A6500952B6D /* 生活百科.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "生活百科.png"; sourceTree = "<group>"; };
+		B32C4C1B1D377A6500952B6D /* 元宵元旦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "元宵元旦.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,9 @@
 		B32C4BE61D37788400952B6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B32C4C191D377A6500952B6D /* 吃喝玩乐.png */,
+				B32C4C1A1D377A6500952B6D /* 生活百科.png */,
+				B32C4C1B1D377A6500952B6D /* 元宵元旦.png */,
 				B32C4BE71D37788400952B6D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,9 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32C4C1C1D377A6500952B6D /* 吃喝玩乐.png in Resources */,
 				B32C4BF61D37788400952B6D /* LaunchScreen.storyboard in Resources */,
+				B32C4C1E1D377A6500952B6D /* 元宵元旦.png in Resources */,
 				B32C4BF31D37788400952B6D /* Assets.xcassets in Resources */,
 				B32C4BF11D37788400952B6D /* Main.storyboard in Resources */,
+				B32C4C1D1D377A6500952B6D /* 生活百科.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +508,7 @@
 				B32C4C121D37788400952B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B32C4C131D37788400952B6D /* Build configuration list for PBXNativeTarget "IOS9photoSaveTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				B32C4C151D37788400952B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B32C4C161D37788400952B6D /* Build configuration list for PBXNativeTarget "IOS9photoSaveUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				B32C4C181D37788400952B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
